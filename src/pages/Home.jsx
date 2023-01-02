@@ -11,7 +11,7 @@ const Home = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(setTrainerGlobal(e.target.name.value.trim()));
-    e.target.name.value = "";
+    e.target.reset();
     navigate("/pokedex");
   };
 

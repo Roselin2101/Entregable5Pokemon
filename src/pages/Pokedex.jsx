@@ -71,13 +71,16 @@ return (
     </select>
     </section>
 
+    <div className="pagination_container">
+
       <Pagination 
       page={page} 
       maxPage={maxPage}
       setPage={setPage}
       // setpokePerPage = {setpokePerPage}
     />
-    
+    </div>
+
     <div className='poke-container'>
       {
         pokemons?.slice(initialPoke, finalPoke).map(poke => (
@@ -88,7 +91,8 @@ return (
         ))
       }
     </div>
-   <div>
+
+   <div  className="pagination_container">
     <Pagination 
       page={page} 
       maxPage={maxPage}

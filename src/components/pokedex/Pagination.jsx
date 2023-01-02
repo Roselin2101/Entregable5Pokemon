@@ -19,7 +19,8 @@ const Pagination = ({page, maxPage, setPage}) => {
   }
 
   const handlePrevious = () => {
-    if(page - 1 > 0) {
+    if(page -1 !== 0){
+
       setPage(page - 1)
     }
   }
