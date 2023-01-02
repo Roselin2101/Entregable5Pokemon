@@ -1,0 +1,19 @@
+.pagination__list{
+    display: flex;
+    gap:10px;
+}
+.pagination__item{
+    width:40px;
+    font-size: 2rem;
+   display: flex;
+   justify-content: center;
+   align-items: 2rem;
+   border-radius: 5px;
+    font-size: 2rem;
+    cursor:pointer
+}
+
+.page__active{
+    background-color: red;
+    color:white;
+}
