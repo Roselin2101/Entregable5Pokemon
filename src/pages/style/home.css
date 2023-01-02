@@ -1,0 +1,55 @@
+.container__home{
+    background-image: url(https://miro.medium.com/max/1400/1*EctvzSDOlwqeH13R6YBYOw.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img__home{
+    width: 55%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+    
+}
+
+.h1__home__title{
+    font-size: 3.5rem;
+    margin-bottom: 45px;
+    color: #eae4e5;
+}
+
+.p__home__name{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #efeaea;
+}
+
+.input__home__form{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #f7f3f4;
+    border-radius: 10px;
+    outline: none;
+    text-transform: capitalize;
+}
+
+.btn__home__Start{
+
+    padding: 15px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(245, 241, 241);
+    background-color: #f91f3c;
+}
+
+
+
+

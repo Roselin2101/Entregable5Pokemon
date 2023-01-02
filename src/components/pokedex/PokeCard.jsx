@@ -35,7 +35,7 @@ const PokeCard = ({ url }) => {
             pokemon?.stats.map(stat => (
               <li className='poke-card__stat' key={stat.stat.name}>
                 <span className='poke-card__label'>{stat.stat.name}</span>
-                <span className={`poke-card__number bg-${pokemon?.types[0].type.name}`}>{stat.base_stat}</span>
+                <span className={`poke-card__number color-${pokemon?.types[0].type.name}`}>{stat.base_stat}</span>
               </li>
             ))
           }
