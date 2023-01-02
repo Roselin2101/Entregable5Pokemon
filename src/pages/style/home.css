@@ -34,7 +34,7 @@
 .input__home__form{
     width: 100%;
     padding: 15px;
-    border: 1px solid #f7f3f4;
+    border: 1px solid #FE1936;
     border-radius: 10px;
     outline: none;
     text-transform: capitalize;
@@ -48,6 +48,14 @@
     border-radius: 10px;
     color: rgb(245, 241, 241);
     background-color: #f91f3c;
+}
+
+.form__home__onsubmit{
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
