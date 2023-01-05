@@ -3,9 +3,9 @@ import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 
-import PokeCard from '../components/Pokedex/PokeCard'
 import './style/pokedex.css'
 import Pagination from '../components/Pokedex/Pagination'
+import PokeCard from '../components/Pokedex/PokeCard'
 const Pokedex = () => {
 
   const { trainer } = useSelector(state => state)
